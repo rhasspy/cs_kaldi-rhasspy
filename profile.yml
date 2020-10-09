@@ -1,0 +1,28 @@
+---
+name: "cs_kaldi-rhasspy"
+version: "1.0"
+
+language:
+  name: "czech"
+  code: "cs-cz"
+
+text-to-speech:
+  espeak:
+    voice: "cs"
+
+speech-to-text:
+  acoustic-model-type: "kaldi"
+  kaldi:
+    model-type: "nnet3"
+
+training:
+  acoustic-model-type: "kaldi"
+  kaldi:
+    model-type: "nnet3"
+  word-casing: "lower"
+  large-files:
+    - !env "${profile_dir}/base_dictionary.txt"
+    - !env "${profile_dir}/base_language_model.txt"
+    - !env "${profile_dir}/base_language_model.fst"
+    - !env "${profile_dir}/g2p.fst"
+    - !env "${profile_dir}/acoustic_model/model/graph/HCLG.fst"
