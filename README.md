@@ -7,6 +7,7 @@ Includes:
 * A [Kaldi nnet3](https://kaldi-asr.org/doc/dnn3.html) speech to text model
     * See files in `acoustic_model/`
     * Recipe created with [ipa2kaldi](https://github.com/rhasspy/ipa2kaldi)
+    * Word error rate: 11.03%
     * Trained on:
         * [Vystadial VOIP](http://www.openslr.org/6/) (18.2 hours)
         * [Common Voice](https://commonvoice.mozilla.org) (26.6 hours)

@@ -1,6 +1,6 @@
 ---
 name: "cs_kaldi-rhasspy"
-version: "1.0"
+version: "1.1"
 
 language:
   name: "czech"
@@ -14,6 +14,7 @@ speech-to-text:
   acoustic-model-type: "kaldi"
   kaldi:
     model-type: "nnet3"
+    base-graph-directory: !env "${profile_dir}/acoustic_model/base_graph"
 
 training:
   acoustic-model-type: "kaldi"
@@ -25,4 +26,7 @@ training:
     - !env "${profile_dir}/base_language_model.txt"
     - !env "${profile_dir}/base_language_model.fst"
     - !env "${profile_dir}/g2p.fst"
-    - !env "${profile_dir}/acoustic_model/model/graph/HCLG.fst"
+    - !env "${profile_dir}/acoustic_model/base_graph/HCLG.fst"
+    - !env "${profile_dir}/acoustic_model/base_graph/words.txt"
+    - !env "${profile_dir}/acoustic_model/base_graph/phones/align_lexicon.txt"
+    - !env "${profile_dir}/acoustic_model/base_graph/phones/align_lexicon.int"

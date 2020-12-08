@@ -1,0 +1,1047 @@
+{
+  "expected": {
+    "kolik je hodin.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "kolik je hodin",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "zapněte světlo v garáže.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "zapněte světlo v garáže",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "jak je zima.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "jak je zima",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "jsou garážová vrata otevřená.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "jsou garážová vrata otevřená",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "je garážová vrata zavřená.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "je garážová vrata zavřená",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "řekni mi čas.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "řekni mi čas",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "jak je to horko.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "jak je to horko",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "vypněte lampu v obývacím pokoji.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "vypněte lampu v obývacím pokoji",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "zapněte světlo garáže.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "zapněte světlo garáže",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "zhasněte světlo garáže.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "zhasněte světlo garáže",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "zapněte lampu v obývacím pokoji.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "zapněte lampu v obývacím pokoji",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "zhasněte světlo v garáže.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "zhasněte světlo v garáže",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "jaká je teplota.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "jaká je teplota",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    }
+  },
+  "actual": {
+    "kolik je hodin.wav": {
+      "intent": {
+        "name": "GetTime",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "kolik je hodin",
+      "raw_text": "kolik je hodin",
+      "recognize_seconds": 0.00043181799992453307,
+      "tokens": [
+        "kolik",
+        "je",
+        "hodin"
+      ],
+      "raw_tokens": [
+        "kolik",
+        "je",
+        "hodin"
+      ],
+      "wav_seconds": 1.0699375,
+      "transcribe_seconds": 1.3169449050037656,
+      "speech_confidence": null,
+      "wav_name": "kolik je hodin.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "kolik",
+          "je",
+          "hodin"
+        ],
+        "hypothesis": [
+          "kolik",
+          "je",
+          "hodin"
+        ],
+        "differences": [
+          "kolik",
+          "je",
+          "hodin"
+        ],
+        "words": 3,
+        "errors": 0,
+        "matches": 3,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "zapněte světlo v garáže.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "světlo v garáže",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on světlo v garáže",
+      "raw_text": "zapněte světlo v garáže",
+      "recognize_seconds": 0.0006649549904977903,
+      "tokens": [
+        "on",
+        "světlo",
+        "v",
+        "garáže"
+      ],
+      "raw_tokens": [
+        "zapněte",
+        "světlo",
+        "v",
+        "garáže"
+      ],
+      "wav_seconds": 1.6763125,
+      "transcribe_seconds": 1.4403431349928724,
+      "speech_confidence": null,
+      "wav_name": "zapněte světlo v garáže.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "zapněte",
+          "světlo",
+          "v",
+          "garáže"
+        ],
+        "hypothesis": [
+          "zapněte",
+          "světlo",
+          "v",
+          "garáže"
+        ],
+        "differences": [
+          "zapněte",
+          "světlo",
+          "v",
+          "garáže"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "jak je zima.wav": {
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "jak je zima",
+      "raw_text": "jak je zima",
+      "recognize_seconds": 0.0004191129992250353,
+      "tokens": [
+        "jak",
+        "je",
+        "zima"
+      ],
+      "raw_tokens": [
+        "jak",
+        "je",
+        "zima"
+      ],
+      "wav_seconds": 0.8165625,
+      "transcribe_seconds": 1.1302119239990134,
+      "speech_confidence": null,
+      "wav_name": "jak je zima.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "jak",
+          "je",
+          "zima"
+        ],
+        "hypothesis": [
+          "jak",
+          "je",
+          "zima"
+        ],
+        "differences": [
+          "jak",
+          "je",
+          "zima"
+        ],
+        "words": 3,
+        "errors": 0,
+        "matches": 3,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "jsou garážová vrata otevřená.wav": {
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "jsou garážová vrata otevřená",
+      "raw_text": "jsou garážová vrata otevřená",
+      "recognize_seconds": 0.0003807459870586172,
+      "tokens": [
+        "jsou",
+        "garážová",
+        "vrata",
+        "otevřená"
+      ],
+      "raw_tokens": [
+        "jsou",
+        "garážová",
+        "vrata",
+        "otevřená"
+      ],
+      "wav_seconds": 2.1161875,
+      "transcribe_seconds": 1.4551946709980257,
+      "speech_confidence": null,
+      "wav_name": "jsou garážová vrata otevřená.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "jsou",
+          "garážová",
+          "vrata",
+          "otevřená"
+        ],
+        "hypothesis": [
+          "jsou",
+          "garážová",
+          "vrata",
+          "otevřená"
+        ],
+        "differences": [
+          "jsou",
+          "garážová",
+          "vrata",
+          "otevřená"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "je garážová vrata zavřená.wav": {
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "je garážová vrata zavřená",
+      "raw_text": "je garážová vrata zavřená",
+      "recognize_seconds": 0.00040088700188789517,
+      "tokens": [
+        "je",
+        "garážová",
+        "vrata",
+        "zavřená"
+      ],
+      "raw_tokens": [
+        "je",
+        "garážová",
+        "vrata",
+        "zavřená"
+      ],
+      "wav_seconds": 1.9116875,
+      "transcribe_seconds": 1.2578155280061765,
+      "speech_confidence": null,
+      "wav_name": "je garážová vrata zavřená.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "je",
+          "garážová",
+          "vrata",
+          "zavřená"
+        ],
+        "hypothesis": [
+          "je",
+          "garážová",
+          "vrata",
+          "zavřená"
+        ],
+        "differences": [
+          "je",
+          "garážová",
+          "vrata",
+          "zavřená"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "řekni mi čas.wav": {
+      "intent": {
+        "name": "GetTime",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "řekni mi čas",
+      "raw_text": "řekni mi čas",
+      "recognize_seconds": 0.0003699249937199056,
+      "tokens": [
+        "řekni",
+        "mi",
+        "čas"
+      ],
+      "raw_tokens": [
+        "řekni",
+        "mi",
+        "čas"
+      ],
+      "wav_seconds": 1.1350625,
+      "transcribe_seconds": 1.4469816080090823,
+      "speech_confidence": null,
+      "wav_name": "řekni mi čas.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "řekni",
+          "mi",
+          "čas"
+        ],
+        "hypothesis": [
+          "řekni",
+          "mi",
+          "čas"
+        ],
+        "differences": [
+          "řekni",
+          "mi",
+          "čas"
+        ],
+        "words": 3,
+        "errors": 0,
+        "matches": 3,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "jak je to horko.wav": {
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "jak je to horko",
+      "raw_text": "jak je to horko",
+      "recognize_seconds": 0.0005057160014985129,
+      "tokens": [
+        "jak",
+        "je",
+        "to",
+        "horko"
+      ],
+      "raw_tokens": [
+        "jak",
+        "je",
+        "to",
+        "horko"
+      ],
+      "wav_seconds": 1.0435625,
+      "transcribe_seconds": 1.0825985630071955,
+      "speech_confidence": null,
+      "wav_name": "jak je to horko.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "jak",
+          "je",
+          "to",
+          "horko"
+        ],
+        "hypothesis": [
+          "jak",
+          "je",
+          "to",
+          "horko"
+        ],
+        "differences": [
+          "jak",
+          "je",
+          "to",
+          "horko"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "vypněte lampu v obývacím pokoji.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "lampu v obývacím pokoji",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off lampu v obývacím pokoji",
+      "raw_text": "vypněte lampu v obývacím pokoji",
+      "recognize_seconds": 0.0005175979895284399,
+      "tokens": [
+        "off",
+        "lampu",
+        "v",
+        "obývacím",
+        "pokoji"
+      ],
+      "raw_tokens": [
+        "vypněte",
+        "lampu",
+        "v",
+        "obývacím",
+        "pokoji"
+      ],
+      "wav_seconds": 2.3854375,
+      "transcribe_seconds": 1.4709276619978482,
+      "speech_confidence": null,
+      "wav_name": "vypněte lampu v obývacím pokoji.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "vypněte",
+          "lampu",
+          "v",
+          "obývacím",
+          "pokoji"
+        ],
+        "hypothesis": [
+          "vypněte",
+          "lampu",
+          "v",
+          "obývacím",
+          "pokoji"
+        ],
+        "differences": [
+          "vypněte",
+          "lampu",
+          "v",
+          "obývacím",
+          "pokoji"
+        ],
+        "words": 5,
+        "errors": 0,
+        "matches": 5,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "zapněte světlo garáže.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "světlo garáže",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on světlo garáže",
+      "raw_text": "zapněte světlo garáže",
+      "recognize_seconds": 0.0006299260130617768,
+      "tokens": [
+        "on",
+        "světlo",
+        "garáže"
+      ],
+      "raw_tokens": [
+        "zapněte",
+        "světlo",
+        "garáže"
+      ],
+      "wav_seconds": 1.656625,
+      "transcribe_seconds": 1.3849596890067915,
+      "speech_confidence": null,
+      "wav_name": "zapněte světlo garáže.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "zapněte",
+          "světlo",
+          "garáže"
+        ],
+        "hypothesis": [
+          "zapněte",
+          "světlo",
+          "garáže"
+        ],
+        "differences": [
+          "zapněte",
+          "světlo",
+          "garáže"
+        ],
+        "words": 3,
+        "errors": 0,
+        "matches": 3,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "zhasněte světlo garáže.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "světlo garáže",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off světlo garáže",
+      "raw_text": "zhasněte světlo garáže",
+      "recognize_seconds": 0.0005269620014587417,
+      "tokens": [
+        "off",
+        "světlo",
+        "garáže"
+      ],
+      "raw_tokens": [
+        "zhasněte",
+        "světlo",
+        "garáže"
+      ],
+      "wav_seconds": 1.7424375,
+      "transcribe_seconds": 1.3044848999998067,
+      "speech_confidence": null,
+      "wav_name": "zhasněte světlo garáže.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "zhasněte",
+          "světlo",
+          "garáže"
+        ],
+        "hypothesis": [
+          "zhasněte",
+          "světlo",
+          "garáže"
+        ],
+        "differences": [
+          "zhasněte",
+          "světlo",
+          "garáže"
+        ],
+        "words": 3,
+        "errors": 0,
+        "matches": 3,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "zapněte lampu v obývacím pokoji.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "on",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "lampu v obývacím pokoji",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "on lampu v obývacím pokoji",
+      "raw_text": "zapněte lampu v obývacím pokoji",
+      "recognize_seconds": 0.0006107060034992173,
+      "tokens": [
+        "on",
+        "lampu",
+        "v",
+        "obývacím",
+        "pokoji"
+      ],
+      "raw_tokens": [
+        "zapněte",
+        "lampu",
+        "v",
+        "obývacím",
+        "pokoji"
+      ],
+      "wav_seconds": 2.3808125,
+      "transcribe_seconds": 1.5379687410022598,
+      "speech_confidence": null,
+      "wav_name": "zapněte lampu v obývacím pokoji.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "zapněte",
+          "lampu",
+          "v",
+          "obývacím",
+          "pokoji"
+        ],
+        "hypothesis": [
+          "zapněte",
+          "lampu",
+          "v",
+          "obývacím",
+          "pokoji"
+        ],
+        "differences": [
+          "zapněte",
+          "lampu",
+          "v",
+          "obývacím",
+          "pokoji"
+        ],
+        "words": 5,
+        "errors": 0,
+        "matches": 5,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "zhasněte světlo v garáže.wav": {
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "off",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        },
+        {
+          "entity": "name",
+          "value": "světlo v garáže",
+          "raw_value": "",
+          "source": "",
+          "start": 0,
+          "raw_start": 0,
+          "end": 0,
+          "raw_end": 0,
+          "tokens": [],
+          "raw_tokens": []
+        }
+      ],
+      "text": "off světlo v garáže",
+      "raw_text": "zhasněte světlo v garáže",
+      "recognize_seconds": 0.0005820619990117848,
+      "tokens": [
+        "off",
+        "světlo",
+        "v",
+        "garáže"
+      ],
+      "raw_tokens": [
+        "zhasněte",
+        "světlo",
+        "v",
+        "garáže"
+      ],
+      "wav_seconds": 1.7686875,
+      "transcribe_seconds": 1.3609880250005517,
+      "speech_confidence": null,
+      "wav_name": "zhasněte světlo v garáže.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "zhasněte",
+          "světlo",
+          "v",
+          "garáže"
+        ],
+        "hypothesis": [
+          "zhasněte",
+          "světlo",
+          "v",
+          "garáže"
+        ],
+        "differences": [
+          "zhasněte",
+          "světlo",
+          "v",
+          "garáže"
+        ],
+        "words": 4,
+        "errors": 0,
+        "matches": 4,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "jaká je teplota.wav": {
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "jaká je teplota",
+      "raw_text": "jaká je teplota",
+      "recognize_seconds": 0.00040506100049242377,
+      "tokens": [
+        "jaká",
+        "je",
+        "teplota"
+      ],
+      "raw_tokens": [
+        "jaká",
+        "je",
+        "teplota"
+      ],
+      "wav_seconds": 1.1686875,
+      "transcribe_seconds": 1.0404452639922965,
+      "speech_confidence": null,
+      "wav_name": "jaká je teplota.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "jaká",
+          "je",
+          "teplota"
+        ],
+        "hypothesis": [
+          "jaká",
+          "je",
+          "teplota"
+        ],
+        "differences": [
+          "jaká",
+          "je",
+          "teplota"
+        ],
+        "words": 3,
+        "errors": 0,
+        "matches": 3,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    }
+  },
+  "num_wavs": 13,
+  "num_words": 48,
+  "num_intents": 0,
+  "num_entities": 0,
+  "correct_transcriptions": 13,
+  "correct_intent_names": 0,
+  "correct_words": 48,
+  "correct_entities": 0,
+  "correct_intent_and_entities": 0,
+  "transcription_accuracy": 1,
+  "intent_accuracy": null,
+  "entity_accuracy": null,
+  "intent_entity_accuracy": null,
+  "average_transcription_speedup": 1.195819677391286
+}
