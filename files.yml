@@ -3,64 +3,6 @@ default:
   LICENSE:
     bytes: 1071
     sha256: c5101f851a9a623a96a2c585189da5d19c8f062baea1a7d102d1b0da890aea80
-  acoustic_model/base_graph/HCLG.fst.gz.part-00:
-    bytes: 26214400
-    file-name: HCLG.fst
-    sha256: b3688b36c75dbd182bc773367bfd57d928cad613edbba0dc8bc20b9b91a42dd0
-  acoustic_model/base_graph/HCLG.fst.gz.part-01:
-    bytes: 26214400
-    file-name: HCLG.fst
-    sha256: dce12a42092e4b9dee544acbcba825a84a82cbc856126795490b8a09537dfb24
-  acoustic_model/base_graph/HCLG.fst.gz.part-03:
-    bytes: 26214400
-    file-name: HCLG.fst
-    sha256: 18597363a30feffc4bf2ed75b4dcfe8570f6fc03c290948a5c802278083d389b
-  acoustic_model/base_graph/HCLG.fst.gz.part-04:
-    bytes: 23758672
-    file-name: HCLG.fst
-    sha256: de015c49f63fb4627dd455b48351530b6b4470bb3890842b2bf4985c10be70d6
-  acoustic_model/base_graph/num_pdfs:
-    bytes: 5
-    sha256: 56cc2e26049d4b0362ec5f90e0d579de932c8787858d83241fbda56fc74847c5
-  acoustic_model/base_graph/phones.txt:
-    bytes: 1541
-    sha256: 56e6527734ba8e936004c352355c4b9ee72e9b717e5137528934a8da921d1051
-  acoustic_model/base_graph/phones/align_lexicon.int.gz:
-    bytes: 557577
-    file-name: align_lexicon.int
-    sha256: 95e12d967734290392dbd3ba94f59accc1ec456bbf1bfbf250a2f271a288b90e
-  acoustic_model/base_graph/phones/align_lexicon.txt.gz:
-    bytes: 645438
-    file-name: align_lexicon.txt
-    sha256: 996c489602023d6b8b3ca1206a924d4f547aea7b40158a3b58769c0904f39907
-  acoustic_model/base_graph/phones/disambig.int:
-    bytes: 28
-    sha256: 4decf585d40f8c5505a58e51ad3d477503d25c06c3d1bb33b7f041e703eeceef
-  acoustic_model/base_graph/phones/disambig.txt:
-    bytes: 21
-    sha256: 68dac9e6366dca5d7edcddcfe8d1c016d457e3b2c697ec6f4053dfe785ebee3f
-  acoustic_model/base_graph/phones/optional_silence.csl:
-    bytes: 2
-    sha256: 06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7
-  acoustic_model/base_graph/phones/optional_silence.int:
-    bytes: 2
-    sha256: 06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7
-  acoustic_model/base_graph/phones/optional_silence.txt:
-    bytes: 4
-    sha256: ebe5d1c9a1dc955e8b0e9d16062b2d6fede3ba741afdb9a6aec65810009bee11
-  acoustic_model/base_graph/phones/silence.csl:
-    bytes: 36
-    sha256: 1d406213cfb0a47a154d2c517d8b7a03128cc22892d217b0ead039795c32fad4
-  acoustic_model/base_graph/phones/word_boundary.int:
-    bytes: 1863
-    sha256: e7012cca5c1046d25ae8a7590d242f08f175d02bbdd6fab933e62b0efced333a
-  acoustic_model/base_graph/phones/word_boundary.txt:
-    bytes: 2163
-    sha256: 22b4c751d1de6e087c0df2be12781dd2dd0613018b4f0bfd0732d1da2c37d496
-  acoustic_model/base_graph/words.txt.gz:
-    bytes: 353148
-    file-name: words.txt
-    sha256: 91140f18ba4a239d992b89f11070bb5ba992f252839de16ec4804dd1ed916977
   acoustic_model/conf/mfcc.conf:
     bytes: 44
     sha256: 3ecadc6f8685df278bff3a8ddca0296368f39000010c66a2dda1eb82f8ab4a1d
@@ -150,11 +92,13 @@ grapheme-to-phoneme:
     bytes: 5015850
     file-name: g2p.fst
     sha256: 17d1b5c499bec2e320dd38220c8a323db1c124340150e7738c5c54add1ce4822
+
 mixed-language-model:
   base_language_model.fst.gz:
     bytes: 13550085
     file-name: base_language_model.fst
     sha256: 4236b34ca019c3df1f087f26f2407ac66827f69b87aa7d4f4907ada940bcc5bb
+
 open-transcription:
   base_language_model.txt.gz.part-00:
     bytes: 26214400
@@ -172,6 +116,69 @@ open-transcription:
     bytes: 5125344
     file-name: base_language_model.txt
     sha256: 7078abe352f1edc0fe091ccecbeea96a1f32eacb1e1ba15bf1555f84dafbbf75
+  acoustic_model/base_graph/HCLG.fst.gz.part-00:
+    bytes: 26214400
+    file-name: HCLG.fst
+    sha256: b3688b36c75dbd182bc773367bfd57d928cad613edbba0dc8bc20b9b91a42dd0
+  acoustic_model/base_graph/HCLG.fst.gz.part-01:
+    bytes: 26214400
+    file-name: HCLG.fst
+    sha256: dce12a42092e4b9dee544acbcba825a84a82cbc856126795490b8a09537dfb24
+  acoustic_model/base_graph/HCLG.fst.gz.part-02:
+    bytes: 26214400
+    file-name: HCLG.fst
+    sha256: ae9a14a56dd5a70407163be397d3d6d3992c68899a3545154858d831f507571a
+  acoustic_model/base_graph/HCLG.fst.gz.part-03:
+    bytes: 26214400
+    file-name: HCLG.fst
+    sha256: 18597363a30feffc4bf2ed75b4dcfe8570f6fc03c290948a5c802278083d389b
+  acoustic_model/base_graph/HCLG.fst.gz.part-04:
+    bytes: 23758672
+    file-name: HCLG.fst
+    sha256: de015c49f63fb4627dd455b48351530b6b4470bb3890842b2bf4985c10be70d6
+  acoustic_model/base_graph/num_pdfs:
+    bytes: 5
+    sha256: 56cc2e26049d4b0362ec5f90e0d579de932c8787858d83241fbda56fc74847c5
+  acoustic_model/base_graph/phones.txt:
+    bytes: 1541
+    sha256: 56e6527734ba8e936004c352355c4b9ee72e9b717e5137528934a8da921d1051
+  acoustic_model/base_graph/phones/align_lexicon.int.gz:
+    bytes: 557577
+    file-name: align_lexicon.int
+    sha256: 95e12d967734290392dbd3ba94f59accc1ec456bbf1bfbf250a2f271a288b90e
+  acoustic_model/base_graph/phones/align_lexicon.txt.gz:
+    bytes: 645438
+    file-name: align_lexicon.txt
+    sha256: 996c489602023d6b8b3ca1206a924d4f547aea7b40158a3b58769c0904f39907
+  acoustic_model/base_graph/phones/disambig.int:
+    bytes: 28
+    sha256: 4decf585d40f8c5505a58e51ad3d477503d25c06c3d1bb33b7f041e703eeceef
+  acoustic_model/base_graph/phones/disambig.txt:
+    bytes: 21
+    sha256: 68dac9e6366dca5d7edcddcfe8d1c016d457e3b2c697ec6f4053dfe785ebee3f
+  acoustic_model/base_graph/phones/optional_silence.csl:
+    bytes: 2
+    sha256: 06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7
+  acoustic_model/base_graph/phones/optional_silence.int:
+    bytes: 2
+    sha256: 06e9d52c1720fca412803e3b07c4b228ff113e303f4c7ab94665319d832bbfb7
+  acoustic_model/base_graph/phones/optional_silence.txt:
+    bytes: 4
+    sha256: ebe5d1c9a1dc955e8b0e9d16062b2d6fede3ba741afdb9a6aec65810009bee11
+  acoustic_model/base_graph/phones/silence.csl:
+    bytes: 36
+    sha256: 1d406213cfb0a47a154d2c517d8b7a03128cc22892d217b0ead039795c32fad4
+  acoustic_model/base_graph/phones/word_boundary.int:
+    bytes: 1863
+    sha256: e7012cca5c1046d25ae8a7590d242f08f175d02bbdd6fab933e62b0efced333a
+  acoustic_model/base_graph/phones/word_boundary.txt:
+    bytes: 2163
+    sha256: 22b4c751d1de6e087c0df2be12781dd2dd0613018b4f0bfd0732d1da2c37d496
+  acoustic_model/base_graph/words.txt.gz:
+    bytes: 353148
+    file-name: words.txt
+    sha256: 91140f18ba4a239d992b89f11070bb5ba992f252839de16ec4804dd1ed916977
+
 text-to-speech:
   espeak_phonemes.txt:
     bytes: 216
